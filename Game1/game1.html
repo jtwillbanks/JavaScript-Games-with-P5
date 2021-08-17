@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Snake </title>
+	<script type="text/javascript" src="../p5.js"></script>
+	<script type="text/javascript" src="snake.js"></script>
+	<link href='../bootstrap.css' type='text/css' rel='stylesheet'>
+	<link href="snake.css" type="text/css" rel="stylesheet">
+	<script>
+	window.addEventListener("keydown", function(e) {
+    // prevent default up/down arrow key behavior
+    	if([38, 40].indexOf(e.keyCode) > -1) {
+       		e.preventDefault();
+   		}
+	}, false);
+	</script>
+</head>
+	<body>
+		<div class='row'> <!-- header -->
+		<div id='scoreWrapper'>
+		<p id='Score'>
+		</p>
+		<p id='hScores'>
+		</p>
+		</div>
+		<div id='container-fluid'>
+		<div id='game'>
+		</div>
+		<div id='pause'>
+		</div>
+		<div id='gOver'>
+		</div>
+		<div id='gOverText'>
+		</div>
+		<div id='gOverEsc'>
+		</div>
+		<div id='info'>
+			<h1> Snake </h1>
+			<p> After a long day of coding, Derrick is exhausted and needs a break from the world of text editing. <br>What better snack than an In-N-Out Double-Double??? <br>Help Derrick achieve conquering his hunger by guiding him to the delicious snack! </p>
+			<h1> How to Play </h1>
+			<p> -  Move the snake and collect the double-doubles! </p>
+			<p> -  Each double-double collected increases your size by 1! </p>
+			<p> -  Hitting the edge or yourself will cause you to lose! </p>
+			<h1> Controls </h1>
+			<p> W or Up-Arrow - Moves Snake Upward </p>
+			<p> A or Left-Arrow - Moves Snake Leftward </p>
+			<p> S or Down-Arrow - Moves Snake Downward </p>
+			<p> D or Right-Arrow - Moves Snake Rightward </p>
+			<p> ESC - Pauses and UnPauses the game </p>
+			<br><br>
+					<div id='goBack'>
+		<a href = '../Home/homePage.html'><h3> Click Here to Go to Home! </h3></a>
+	</div>
+		</div>
+	</div>
+	</body>
+</html>

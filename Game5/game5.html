@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tab on the Haters </title>
+	<script type="text/javascript" src="../p5.js"></script>
+	<link href='../bootstrap.css' type='text/css' rel='stylesheet'>
+	<link href="tab.css" type="text/css" rel="stylesheet">
+	<script>
+	window.addEventListener("keydown", function(e) {
+    // prevent default tab behavior
+    	if([9].indexOf(e.keyCode) > -1) {
+       		e.preventDefault();
+   		}
+	}, false);
+	</script>
+</head>
+	<body>
+		<div id='scoreWrapper'>
+		<p id='Score'>
+			<br>
+			<h2>00:00:00</h2>
+		</p>
+		<p id='hScores'>
+		</p>
+		</div>
+		<div id='container-fluid'>
+		<div id='game'>
+		</div>
+		<div id='pause'>
+		</div>
+		<div id='start'>
+		</div>
+		<div id='gOver'>
+		</div>
+		<div id='gOverText'>
+		</div>
+		<div id='gOverEsc'>
+		</div>
+		<div id='info'>
+			<br><br>
+			<h1> TAB ON THE HATERS </h1>
+			<p> When others hate on your sucess, just TAB on the haters!</p>
+			<p> How many times can you tab on the haters in one minute? </p>
+			<br>
+			<h1> How to Play </h1>
+			<p> - Tab on the haters! </p>
+			<p> - Press the tab button as many times as you can in one minute! </p>
+			<p> - Challenge the high score to become the best Tabber </p>
+			<br>
+			<h1> Controls </h1>
+			<p> Press Tab to tab on the haters! </p>
+			<br><br>
+					<div id='goBack'>
+		<a href = '../Home/homePage.html'><h3> Click Here to Go to Home! </h3></a>
+	</div>
+		</div>
+	</div>
+	
+	</body>
+	<script type="text/javascript" src="tab.js"></script>
+</html>
