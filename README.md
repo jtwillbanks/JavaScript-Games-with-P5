@@ -6,7 +6,7 @@
 ## Game 5 - "Tab on the Haters"
 ## Game 6 - Racer
 
-#Considerations
+# Considerations
 - Developed by Jacob Willbanks for CMPS 2680 at California State University of Bakersfield (2018)
 - Utilizes the P5.js framework by Lauren McCarthy (https://p5js.org/)
 - Movie Poster CSS (https://codepen.io/quentinver/pen/MXZBpb)
