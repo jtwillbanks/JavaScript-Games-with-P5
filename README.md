@@ -1,5 +1,5 @@
 # Baisc Pure JavaScript Games Utilizing the P5.js Framework
-## Live Demo: https://jtwillbanks.github.io/JavaScript-Games-with-P5/docs/Home/homePage.html
+## Live Demo: https://jtwillbanks.github.io/JavaScript-Games-with-P5/Home/homePage.html
 ## Game 1 - Snake
 ## Game 2 - Pac-Man
 ## Game 3 - Maze
